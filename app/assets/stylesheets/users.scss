@@ -1,0 +1,22 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.profile {
+  position: absolute;
+  font-size: 18px;
+  top: 46%;
+  left: 10%;
+  margin-top: -191px;
+  margin-left: -50px;
+  width: 513px;
+  height: 500px;
+}
+
+
+h4  {
+  font-family: futura-pt,Lato,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+}

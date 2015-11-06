@@ -1,0 +1,87 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require jquery-ui
+ *= require_tree .
+ *= require_self
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+
+.container1 {
+background-color:inherit;
+width: 500px;
+height: 200px;
+text-align: center;
+border-color: black;
+
+}
+
+h1 {
+ font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+.profile {
+  position: absolute;
+  font-size: 17px;
+   top: 30%;
+   left: 10%;
+   margin-top: -50px;
+   margin-left: -50px;
+   width: 500px;
+   height: 500px;
+}
+
+.jumbotron {
+    position: relative;
+    background: #E0E0E0 url("jumbotron-bg.png") center center;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 0px;
+
+}
+
+
+
+
+.jumbotron1 {
+  position: relative;
+  background: url("http://www.hdnicewallpapers.com/Wallpapers-Download/Laptop-Keypad-Closeup-High-Definition-Pics") center center;
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.jumbotron2 {
+  position: relative;
+  background: #E8E8E8 url("jumbotron-bg.png") center center;
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}

@@ -1,0 +1,15 @@
+
+<% @users.each do |u| %>
+  <div class="profile">
+  Name: <%= u.name %> <br>
+  Contact: <%= u.email %> <br>
+  Idea: <%= u.bio %> <br>
+  <% if u.developer %>
+  Developer
+  <%  elsif u.designer %>
+  Designer
+
+  <% end %>
+
+  </div>
+<% end %>

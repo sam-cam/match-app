@@ -1,0 +1,19 @@
+<h1>Create your own account</h1>
+
+
+<%= form_for @user do |f| %>
+<%= f.text_field :name, placeholder: 'name' %><br>
+<%= f.text_field :email, placeholder: 'Email' %><br>
+<%= f.text_area :bio, placeholder: 'Looking for someone to help with' %><br>
+<%= f.password_field :password, placeholder: 'password' %><br>
+<%= f.password_field :password, placeholder: 'confirm password' %><br>
+
+<%= f.check_box(:designer) %>
+<%= f.label(:designer, "Designer") %><br>
+<%= f.check_box(:developer) %>
+<%= f.label(:developer, "Developer") %> <br>
+
+<%= f.submit %>
+
+<% end %>
+</div>

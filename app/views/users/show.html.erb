@@ -1,0 +1,13 @@
+
+
+<div class="container1">
+  <h1>Name: <%= @user.name %><br></h1>
+<h2>Email: <%= @user.email %></h2><br>
+<p> <%= @user.bio %><p><br>
+<% if @user.designer %>
+  <h2>Designer</h2><br>
+<% elsif @user.developer%>
+  <h2>Developer</h2><br>
+<% end %>
+ <p>
+</div>

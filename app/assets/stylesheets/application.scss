@@ -29,6 +29,7 @@ border-color: black;
 
 h1 {
  font-size: 30px;
+ margin-left: 109px;
 }
 
 p {
@@ -49,15 +50,12 @@ p {
     position: relative;
     background: #E0E0E0 url("jumbotron-bg.png") center center;
     width: 100%;
-    height: 550px;
+    height: 350px;
     background-size: cover;
     overflow: hidden;
     margin-bottom: 0px;
 
 }
-
-
-
 
 .jumbotron1 {
   position: relative;
@@ -71,9 +69,9 @@ p {
 
 .jumbotron2 {
   position: relative;
-  background: #E8E8E8 url("jumbotron-bg.png") center center;
+  background: #669999 url("jumbotron-bg.png") center center;
   width: 100%;
-  height: 550px;
+  height: 450px;
   background-size: cover;
   overflow: hidden;
 }
@@ -84,4 +82,13 @@ p {
     min-height: 50px;
     margin-bottom: 0px;
     border: 1px solid transparent;
+}
+
+
+img {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 300px;
+    margin-left: 47px;
 }
